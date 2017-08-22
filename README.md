@@ -25,7 +25,7 @@ Choose **Public** in order to make your project accessible for Alexa. (If you pr
 ![link](https://s3-eu-west-1.amazonaws.com/cloud9-aws/Create+a+New+Workspace+2017-08-10+12-00-51.png)
 
 
-3. In the newly created workspace, enter into the terminal: `npm install` followed by `npm start`.
+3. In the newly created workspace, enter into the terminal: `npm install` followed by `nodemon server.js`.
 4. Choose from the menu **Preview** >> **Preview Running Application**. If you do this the first time, acknowledge the warning. ![sdf](https://s3-eu-west-1.amazonaws.com/cloud9-aws/ssd+-+Cloud9+-+(Private+Browsing)+2017-08-14+10-38-18.png)
 5. Congrats your skill endpoint is up and running. Now copy the preview URL to be the HTTPS enpdpoint of your Alexa Skill and start coding in the the `/skill` folder.
 
